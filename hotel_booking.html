@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+        <style>
+            body{
+                margin-left: 80px;
+                margin-top: 50px;
+                background-color: beige;
+            }
+            span{
+                color: red;
+            }
+            input{
+                width: 300px;
+                height: 30px;
+                margin-right: 150px;
+                font-size: 20px;
+            }
+            label{
+                display: inline-block;
+                width: 200px;
+                font-size: 24px;
+            }
+            .buttons{
+                margin-top: 40px;
+                /* margin-left: 100px; */
+                font-size: 24px;
+            }
+            p{
+                font-size: 64px;
+                margin-top: 0px;
+                margin-bottom: 40px;
+                font-weight: bold;
+            }
+            textarea{
+                margin-right: 65px;
+            }
+
+            select{
+                font-size: 20px;
+                margin-right: 372px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+                <center><p>HOTEL BOOKING</p></center> 
+                <label>Full Name<span>*</span></label>:&nbsp;<input type="text">
+                <label>Last Name<span>*</span></label>:&nbsp;<input type="text">
+                <br><br>
+                <label>Email ID<span>*</span></label>:&nbsp;<input type="text">
+                <label>Phone No<span>*</span></label>:&nbsp;<input type="text">
+                <br><br>
+                <label>Check-In Date<span>*</span></label>:&nbsp;<input type="date">
+                <label>Check Out Date<span>*</span></label>:&nbsp;<input type="date">
+                <br><br>
+                <label>Address 1<span>*</span></label>:&nbsp;<textarea rows="4" cols="50"></textarea>
+                <label>Address 2<span>*</span></label>:&nbsp;<textarea rows="4" cols="50"></textarea>
+                <br><br>
+                <label>Aadhar No<span>*</span></label>:&nbsp;<input type="text">
+                <label>Upload ID proof<span>*</span></label>:&nbsp;<input type="file">
+                <br><br> 
+                <label>Room Type<span>*</span></label>:
+                <select>
+                    <option>Single</option>
+                    <option>Double</option>
+                    <option>Queen</option>
+                    <option>King</option>
+                    <option>Suite</option>
+                </select>
+                <!-- <br><br> -->
+                <label>Number of Guests<span>*</span></label>:
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>>=4</option>
+                </select>
+                <br><br>
+                
+                      
+            <br><br>
+            <center>
+                <input class="buttons" type="submit">
+                <input class="buttons"  type="reset">
+            </center>
+            
+        </form>
+
+    </body>
+</html>
